@@ -9,7 +9,7 @@ provider "aws" {
 
 /*------------bucket------------*/
 
-resource "aws_s3_bucket" "bucket1" {
+resource "aws_s3_bucket" "marcorupitbucket1" {
   bucket = var.bucket
   acl = "public-read"
   website {
